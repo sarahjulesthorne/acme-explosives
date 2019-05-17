@@ -1,0 +1,40 @@
+{
+  "types": [
+{
+  "id": "type0",
+  "category": "category0",
+"name": "Personal",
+"description": "For use by individuals"
+},
+{
+  "id": "type1",
+  "category": "category0",
+"name": "Party",
+"description": "For use by groups at private events"
+},
+{
+  "id": "type2",
+  "category": "category0",
+"name": "Public",
+"description": "For use at public events and celebrations"
+},
+{
+  "id": "type3",
+  "category": "category1",
+"name": "Homemade",
+"description": "Achievable by individuals in their home environments"
+},
+{
+  "id": "type4",
+  "category": "category1",
+"name": "Group",
+"description": "Best enjoyed and most easily achieved with communal participation"
+},
+{
+  "id": "type5",
+  "category": "category1",
+"name": "Imaginary",
+"description": "Only dreamed of"
+}
+]
+}
