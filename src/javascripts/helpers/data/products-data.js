@@ -5,14 +5,9 @@ const getProductsForTypes = builtCategories => new Promise((resolve, reject) => 
     .then((response) => {
       const { products } = response.data;
 
-      const extractedProducts = products.map((product) => {
-        const productKeys = Array.from(Object.keys(product));
-        return product[productKeys[0]];
-      });
-
+      const extractedProducts = Object.values(products[0]);
       const finalBuiltData = builtCategories.map((category) => {
         const finalBuiltCategory = category;
-
         const builtTypes = category.types.map((type) => {
           const builtType = type;
 
@@ -22,7 +17,7 @@ const getProductsForTypes = builtCategories => new Promise((resolve, reject) => 
         });
 
         finalBuiltCategory.types = builtTypes;
-        return finalBuiltData;
+        return finalBuiltCategory;
       });
 
       resolve(finalBuiltData);

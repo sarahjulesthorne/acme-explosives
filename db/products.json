@@ -1,148 +1,112 @@
 {
-  "products": [
-    {
-      "sparklers": {
-        "id": "product0",
-        "type": "type0",
-        "name": "Sparklers",
-        "description": "Magical wands which sprinkle star dust."
-      }
+  "products": [{
+    "sparklers": {
+      "id": "product0",
+      "type": "type0",
+      "name": "Sparklers",
+      "description": "Magical wands which sprinkle star dust."
     },
-     {
-      "firecrackers": {
-        "id": "product1",
-        "type": "type0",
-        "name": "Firecrackers",
-        "description": "Exuberance a little too close for comfort."
-      }
+    "firecrackers": {
+      "id": "product1",
+      "type": "type0",
+      "name": "Firecrackers",
+      "description": "Exuberance a little too close for comfort."
     },
-   {
-"snaps": {
-    "id": "product2",
-    "type": "type0",
-    "name": "Snaps",
-    "description": "A child's joy of noise."
-}
-  },
-  {
+    "snaps": {
+      "id": "product2",
+      "type": "type0",
+      "name": "Snaps",
+      "description": "A child's joy of noise."
+    },
     "roman-candles": {
-"id": "product3",
-"type": "type1",
-    "name": "Roman Candles",
-    "description": "Shoots fire and is somehow still entertaining?"
-    }
-  },
-    {
-"snakes": {
+      "id": "product3",
+      "type": "type1",
+      "name": "Roman Candles",
+      "description": "Shoots fire and is somehow still entertaining?"
+    },
+    "snakes": {
       "id": "product4",
       "type": "type1",
       "name": "snakes",
-"description": "Magical Snakes. Do not eat!"
-}
+      "description": "Magical Snakes. Do not eat!"
     },
-    {
-"cherry-bombs": {
+    "cherry-bombs": {
       "id": "product5",
       "type": "type2",
       "name": "Cherry Bombs",
       "description": "So loud and yet still popular..."
-}
     },
-      {
-"flitter": {
-        "id": "product6",
-        "type": "type3",
-        "name": "Flitter",
-        "description": "Star on Earth."
+    "flitter": {
+      "id": "product6",
+      "type": "type3",
+      "name": "Flitter",
+      "description": "Star on Earth."
+    },
+    "helicopter": {
+      "id": "product7",
+      "type": "type2",
+      "name": "helicopter",
+      "description": "Spins very fast. Goes very high."
+    },
+    "saturn-shell": {
+      "id": "product8",
+      "type": "type2",
+      "name": "Saturn Shell",
+      "description": "The night sky captivated"
+    },
+    "oil-fountain": {
+      "id": "product9",
+      "type": "type3",
+      "name": "Oil Fountain",
+      "description": "Teenager drops  ice cube in boiling oil. Warning: can cause legit explosiong/fire!"
+    },
+    "flaming-candle-holder": {
+      "id": "product10",
+      "type": "type3",
+      "name": "Flaming Candle-holder",
+      "description": "Teenager plays with fire in your home. Warning: Can cause fires"
+    },
+    "sad-marshmellow": {
+      "id": "product11",
+      "type": "type3",
+      "name": "Sad Marshmellow",
+      "description": "A marshmellow neglected by a campfire"
+    },
+    "bonfire": {
+      "id": "product12",
+      "type": "type4",
+      "name": "Bonfire",
+      "description": "A group of overly exciteable humans gathers in your back yard and sets fire to sundry items."
+    },
+    "fireworks-display": {
+      "id": "product13",
+      "type": "type4",
+      "name": "Fireworks Display",
+      "description": "Humans explode things in your night sky with total disregard for amount of noise."
+    },
+    "solar-eclipse": {
+      "id": "product14",
+      "type": "type4",
+      "name": "Solar Eclipse",
+      "description": "Sun hides but falsely. You decide whether to stare at it and hurt your eyes."
+    },
+    "comet-rides": {
+      "id": "product 15",
+      "type": "type5",
+      "name": "Comet Rides",
+      "description": "Spaceship is attached to comet and whisked at light-defying speeds through universe"
+    },
+    "star-shower": {
+      "id": "product16",
+      "type": "type5",
+      "name": "Star Shower",
+      "description": "Fairies catch star sneezes and sprinkle them on Earth."
+    },
+    "best-day-ever": {
+      "id": "product17",
+      "type": "type5",
+      "name": "Best Day Ever!",
+      "description": "No loud noises or bursts of uncontrolled flame bother you."
+    }
+  }]
 }
-      },
-        {
-"helicopter": {
-          "id": "product7",
-          "type": "type2",
-          "name": "helicopter",
-"description": "Spins very fast. Goes very high."
-        }
-        },
-        {
-"saturn-shell": {
-"id": "product8",
-          "type": "type2",
-          "name": "Saturn Shell",
-          "description": "The night sky captivated"
-}
-        },
-          {
-"oil-fountain": {
-  "id": "product9",
-            "type": "type3",
-            "name": "Oil Fountain",
-            "description": "Teenager drops  ice cube in boiling oil. Warning: can cause legit explosiong/fire!"
-}
-          },
-            {
-"flaming-candle-holder": {
-              "id": "product10",
-              "type": "type3",
-              "name": "Flaming Candle-holder",
-"description": "Teenager plays with fire in your home. Warning: Can cause fires"
-            }
-            },
-            {
-"sad-marshmellow": {
-              "id": "product11",
-              "type": "type3",
-              "name": "Sad Marshmellow",
-              "description": "A marshmellow neglected by a campfire"
-}
-            },
-              {
-                "bonfire": {
-                "id": "product12",
-                "type": "type4",
-                "name": "Bonfire",
-"description": "A group of overly exciteable humans gathers in your back yard and sets fire to sundry items."
-                }
-              },
-              {
-"fireworks-display": {
-                "id": "product13",
-                "type": "type4",
-                "name": "Fireworks Display",
-"description": "Humans explode things in your night sky with total disregard for amount of noise."
-}
-              },
-              {
-"solar-eclipse": {
-                "id": "product14",
-                "type": "type4",
-                "name": "Solar Eclipse",
-"description": "Sun hides but falsely. You decide whether to stare at it and hurt your eyes."
-}
-              },
-              {
-"comet-rides": {
-  "id": "product 15",
-                "type": "type5",
-                "name": "Comet Rides",
-                "description": "Spaceship is attached to comet and whisked at light-defying speeds through universe"
-}
-              },
-                {
-"star-shower": {
-  "id": "product16",
-  "type": "type5",
-                  "name": "Star Shower",
-                  "description": "Fairies catch star sneezes and sprinkle them on Earth."
-                }
-              },
-                {
-                  "best-day-ever": {
-                    "id": "product17",
-                    "type": "type5",
-                    "name": "Best Day Ever!",
-                    "description": "No loud noises or bursts of uncontrolled flame bother you."
-                  }
-                }
-              ]
-            }

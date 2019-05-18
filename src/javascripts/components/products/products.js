@@ -8,7 +8,7 @@ const printProducts = (arrayToPrint) => {
   arrayToPrint.forEach((category) => {
     category.types.forEach((type) => {
       type.products.forEach((product) => {
-        domString += `<div class="card col-3" id="${product.id}">`;
+        domString += `<div class="card col-3 product-card" id="${product.id}">`;
         domString += '<div class="card-body">';
         domString += `<h5 class="card-title w-100 text-center">${product.name}</h5>`;
         domString += `<p class="card-text"><span>Product Description:</span> ${product.description}</p>`;
@@ -24,11 +24,11 @@ const printProducts = (arrayToPrint) => {
 
 const initProductsDisplay = () => new Promise((resolve, reject) => {
   categoriesData.getCategories()
-    .then(response => typesData.getTypesForCategories(response.data.categories)
-      .then(categoriesWithTypes => productsData.getProductsForTypes(categoriesWithTypes)
-        .then((finalBuiltData) => {
-          printProducts(finalBuiltData);
-        })))
+    .then(response => typesData.getTypesForCategories(response.data.categories))
+    .then(categoriesWithTypes => productsData.getProductsForTypes(categoriesWithTypes))
+    .then((finalBuiltData) => {
+      printProducts(finalBuiltData);
+    })
     .catch(error => reject(error));
 });
 
