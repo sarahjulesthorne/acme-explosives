@@ -1,12 +1,12 @@
 import axios from 'axios';
 
 const getProductsForTypes = builtCategories => new Promise((resolve, reject) => {
-  axios.get('../db/products-data.json')
+  axios.get('../db/products.json')
     .then((response) => {
       const { products } = response.data;
 
       const extractedProducts = products.map((product) => {
-        const productKeys = Array.from(product.keys);
+        const productKeys = Array.from(Object.keys(product));
         return product[productKeys[0]];
       });
 
